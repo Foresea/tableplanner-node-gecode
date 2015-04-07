@@ -1,0 +1,2 @@
+g++ -std=c++11 -I /usr/local/include -c main.cpp
+g++ -o tableplanner -L /usr/local/lib main.o -lgecodesearch -lgecodeint -lgecodekernel -lgecodesupport -lgecodedriver -lgecodeminimodel

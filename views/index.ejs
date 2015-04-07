@@ -1,0 +1,13 @@
+<% include header %>
+<!-- Hero begin -->
+<div class="well jumbotron">
+  <h2><%= title %></h2>
+  <ul id="image">
+		<% for(var i=0; i<data.length; i++) {%>
+		   <li><%= data[i] %></li>
+		<% } %>
+	</ul>
+  <p><a class="btn btn-primary btn-lg" href="/planner" role="button">Run Table Planner</a></p>
+</div>
+
+<% include footer %>
